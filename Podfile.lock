@@ -1,0 +1,13 @@
+PODS:
+  - Masonry (1.0.0)
+  - MJPopupViewController (0.4)
+
+DEPENDENCIES:
+  - Masonry
+  - MJPopupViewController
+
+SPEC CHECKSUMS:
+  Masonry: b529bb169217897b6354d4b56b1fada6d475b13d
+  MJPopupViewController: e9ad553a3145eb8126ba2748e872ae7fb25cc605
+
+COCOAPODS: 0.39.0

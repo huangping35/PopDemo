@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import <MJPopupViewController/UIViewController+MJPopupViewController.h>
+#import "CustomeViewController.h"
 
 @interface ViewController ()
 
@@ -22,6 +24,11 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)open:(id)sender {
+    
+    CustomeViewController *cuVc=[[CustomeViewController alloc]init];
+    [self presentPopupViewController:cuVc animationType:MJPopupViewAnimationSlideBottomBottom];
 }
 
 @end
